@@ -1,19 +1,11 @@
 #!/usr/bin/env python3
-import skilstak.colors as c
-import hello as h
-    
-if __name__ == '__main__':     
-    name, option = h.parse_args()
-    message = "Hello " + name + "!"
-    try:
-        if option == "-f":
-            h.print_forever(message)
-        elif option == "-h":
-            h.print_colors(message)
-        else:
-            h.print_plain(message)
-    except KeyboardInterrupt:
-        exit()
-        
-    
 
+"this is my hello world file"
+
+def print_plain(): 
+    print("""HELLO WORLD!!!!!!!!!!""")
+
+if __name__ == '__main__':
+    print_plain()
+
+    
