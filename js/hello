@@ -2,6 +2,19 @@
 
 "use strict";
 
-console.log(" SENSEI FUZZY BUNS IS UNCOOL:}");
-console.log("Hello World");
-console.log("MR.JACKSON IS A PIE FACE:}");
+
+var c = require('skilstak-colors')
+
+var printColors = function () {
+  console.log(c.rc() +  "SENSEI FUZZY BUNS IS UNCOOL:}");
+  console.log(c.rc() +  "Hello World");
+  console.log(c.rc() +  "MR.JACKSON IS A PIE FACE:}");
+  console.log(c.rc() +  "WHAT ARE THOSE. MY SHOES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+}
+
+
+var multiColor = function () {
+  
+}
+
+printColors();
