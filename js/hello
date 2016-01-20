@@ -9,7 +9,13 @@ var printColors = function () {
   console.log(c.rc() +  "SENSEI FUZZY BUNS IS UNCOOL:}");
   console.log(c.rc() +  "Hello World");
   console.log(c.rc() +  "MR.JACKSON IS A PIE FACE:}");
+}  
+ 
+var printGreen = function (message) { 
   console.log(c.rc() +  "WHAT ARE THOSE. MY SHOES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+  console.log(c.rc() +  "Mr.JaJa does not know the color of the rainbow. Do you?");
+  console.log(c.rc() +  message);            
+  console.log(c.rc() +  "I caught ben on his phone.... then i got 10 skil bux");
 }
 
 
@@ -17,4 +23,6 @@ var multiColor = function () {
   
 }
 
-printColors();
+while (true) {
+printGreen("Macy ate Reid's carrot... Reid ate Macy");
+printColors();}
