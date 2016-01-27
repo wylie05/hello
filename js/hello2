@@ -1,0 +1,10 @@
+#!/usr/bin/env node
+'use strict'
+
+var printColors = function (message) {
+    console.log("Macy ate the last chip Reid ate the last Macy. Then Cleo and Reid took over the world and ate every last chip in the whole entire WOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOOLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLLDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDDD!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
+}
+var printGreen = function(message) {
+  console.log(message);
+} 
+printColors()
