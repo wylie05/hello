@@ -5,7 +5,8 @@
 
 var c = require('skilstak-colors')
 
-var printColors = function () {
+var printColors = function (message) {
+  console.log(c.rc()  +   message);
   console.log(c.rc() +  "SENSEI FUZZY BUNS IS UNCOOL:}");
   console.log(c.rc() +  "Hello World");
   console.log(c.rc() +  "MR.JACKSON IS A PIE FACE:}");
@@ -18,11 +19,15 @@ var printGreen = function (message) {
   console.log(c.rc() +  "I caught ben on his phone.... then i got 10 skil bux");
 }
 
+var firstValue = process.argv[2];
+var name = "World";
+var option = "-g";
 
-var multiColor = function () {
-  
+if (firstValue[0] === "-") {
+  option = firstValue;
+  console.log(option)
+}
+if (option === "-g") {
+  printGreen(name);
 }
 
-while (true) {
-printGreen("Macy ate Reid's carrot... Reid ate Macy");
-printColors();}
