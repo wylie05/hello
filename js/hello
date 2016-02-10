@@ -6,28 +6,21 @@
 var c = require('skilstak-colors')
 
 var printColors = function (message) {
-  console.log(c.rc()  +   message);
-  console.log(c.rc() +  "SENSEI FUZZY BUNS IS UNCOOL:}");
-  console.log(c.rc() +  "Hello World");
-  console.log(c.rc() +  "MR.JACKSON IS A PIE FACE:}");
-}  
- 
-var printGreen = function (message) { 
-  console.log(c.rc() +  "WHAT ARE THOSE. MY SHOES!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!");
-  console.log(c.rc() +  "Mr.JaJa does not know the color of the rainbow. Do you?");
-  console.log(c.rc() +  message);            
-  console.log(c.rc() +  "I caught ben on his phone.... then i got 10 skil bux");
+  console.log(c.rc() +   message);
+  console.log(c.rc() +  " HELLO WORLD");
+  console.log(c.rc() +  "luke i am your father");
+  console.log(c.rc() +   "really!");
+  console.log(c.rc() +  "no i am just a creepy old actor");
+  console.log(c.rc() +  "lets just get back to the script");
+  console.log(c.rc() +  "but, but your in our family tree");            
+  console.log(c.rc() +  "oh yeah i forgot");
 }
+
+var printColors = function (message) {
+}
+
+
 
 var firstValue = process.argv[2];
-var name = "World";
-var option = "-g";
-
-if (firstValue[0] === "-") {
-  option = firstValue;
-  console.log(option)
-}
-if (option === "-g") {
-  printGreen(name);
-}
+console.log(firstValue);
 
